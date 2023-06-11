@@ -142,7 +142,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 <body>
    
-        <div class="container-md shadow-lg border mt-5">
+        <div class="container-md shadow-lg border mt-5" data-aos="fade-up" data-aos-delay="100">
          <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="row mx-3">
                 
